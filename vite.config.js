@@ -10,7 +10,7 @@ import {
 import react from '@vitejs/plugin-react';
 
 const CHAT_VARIABLE = process.env.CHAT_VARIABLE || '';
-const PUBLIC_PATH = process.env.PUBLIC_PATH || '';
+const PUBLIC_PATH = process.env.PUBLIC_PATH || 'Amge';
 
 const isProdEnv = process.env.NODE_ENV === 'production';
 const publicPath = (isProdEnv && CHAT_VARIABLE)
